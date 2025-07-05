@@ -733,15 +733,15 @@ function Test-WMIFilter {
                     }
                 
                 if ($Result) {
-                    $ResultDetails += "✓ Query returned $(@($Result).Count) result(s)"
+                    $ResultDetails += "Query returned $(@($Result).Count) result(s)"
                 }
                 else {
-                    $ResultDetails += "✗ Query returned no results"
+                    $ResultDetails += "Query returned no results"
                     $AllResults = $false
                 }
             }
             catch {
-                $ResultDetails += "✗ Query failed: $_"
+                $ResultDetails += "Query failed: $_"
                 $AllResults = $false
             }
             $ResultDetails += ""
@@ -923,19 +923,19 @@ $btnTest.Add_Click({
                 Hide-Loading
                 
                 if ($testResult.Success -eq $false) {
-                    $lblTestStatus.Text = "❌ Test Failed"
+                    $lblTestStatus.Text = "Test Failed"
                     $lblTestStatus.Foreground = "#FF6B6B"
                     $txtTestResults.Text = $testResult.Message
                     Update-Status "Test failed: $($testResult.Message)" "Error"
                 }
                 else {
                     if ($testResult.Result) {
-                        $lblTestStatus.Text = "✅ Filter Result: TRUE - Would Apply"
+                        $lblTestStatus.Text = "Filter Result: TRUE - Would Apply"
                         $lblTestStatus.Foreground = $window.Resources["AccentColor"]
                         Update-Status "Filter would apply to $computerName" "Success"
                     }
                     else {
-                        $lblTestStatus.Text = "❌ Filter Result: FALSE - Would Not Apply"
+                        $lblTestStatus.Text = "Filter Result: FALSE - Would Not Apply"
                         $lblTestStatus.Foreground = "#FF6B6B"
                         Update-Status "Filter would not apply to $computerName"
                     }
