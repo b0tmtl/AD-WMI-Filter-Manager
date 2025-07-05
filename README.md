@@ -38,13 +38,7 @@ AD WMI Filter Manager is a professional-grade PowerShell tool that provides a mo
 ## 🖼️ Screenshots
 
 <div align="center">
-
-![Main Interface](https://via.placeholder.com/800x600.png?text=Main+Interface)
-*Main interface showing WMI filters and details*
-
-![Testing Feature](https://via.placeholder.com/800x400.png?text=Testing+Feature)
-*Testing a WMI filter against a target computer*
-
+![Main Interface](https://github.com/user-attachments/assets/b5a01867-d14e-493a-9aac-050da0d7dac2)
 </div>
 
 ## 🚀 Installation
@@ -57,6 +51,6 @@ AD WMI Filter Manager is a professional-grade PowerShell tool that provides a mo
 
 ### Option 2: Git Clone
 ```powershell
-git clone https://github.com/YOUR-USERNAME/AD-WMI-Filter-Manager.git
+git clone https://github.com/b0tmtl/AD-WMI-Filter-Manager.git
 cd AD-WMI-Filter-Manager
 .\WmiGUI.ps1
