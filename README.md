@@ -44,7 +44,7 @@ AD WMI Filter Manager is a professional-grade PowerShell tool that provides a mo
 ## 🚀 Installation
 
 ### Option 1: Direct Download
-1. Download `WmiGUI.ps1` from the [Releases](https://github.com/YOUR-USERNAME/AD-WMI-Filter-Manager/releases) page
+1. Download `WmiGUI.ps1` from the [Releases](https://github.com/b0tmtl/AD-WMI-Filter-Manager/releases) page
 2. Right-click the file and select "Properties"
 3. Check "Unblock" if present and click "Apply"
 4. Run the script with PowerShell
