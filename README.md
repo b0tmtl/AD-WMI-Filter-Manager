@@ -1,4 +1,4 @@
-# AD WMI Filter Manager
+# AD WMI Filter Manager - Validator
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-Custom%20Non--Commercial-yellow.svg?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-3.1-blue.svg?style=for-the-badge)
 
-<h3>A modern PowerShell GUI tool for managing and testing Active Directory WMI Filters</h3>
+<h3>A modern PowerShell GUI tool for managing, validating and testing Active Directory WMI Filters</h3>
 
 [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Requirements](#requirements) • [License](#license)
 
